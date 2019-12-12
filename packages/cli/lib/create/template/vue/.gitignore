@@ -1,9 +1,8 @@
 .DS_Store
 node_modules
-/dist
-/scripts
-changelog-generator
+dist
 .bak
+.zip
 # local env files
 .env.local
 .env.*.local
@@ -12,6 +11,8 @@ changelog-generator
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+package-lock.json
+yarn.lock
 
 # Editor directories and files
 .idea
