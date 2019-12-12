@@ -1,0 +1,7 @@
+node_modules
+packages/**/template
+packages/**/__tests__
+packages/**/dist
+scripts
+packages/**/lib/*.js
+.changelog
