@@ -5,8 +5,6 @@ node_modules
 changelog-generator
 lib
 .bak
-CHANGELOG.TEST.md
-CHANGELOG.LERNA.md
 # local env files
 .env.local
 .env.*.local
