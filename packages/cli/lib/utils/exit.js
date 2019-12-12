@@ -1,4 +1,1 @@
-'use strict'
-exports.exit = function(a) {
-  process.exit(a)
-}
+'use strict';exports.exit=function(a){process.exit(a)}
