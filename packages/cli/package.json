@@ -39,7 +39,7 @@
     "globby": "^10.0.1",
     "inquirer": "^7.0.0",
     "isbinaryfile": "^4.0.2",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.5",
     "open": "^7.0.0",
     "ora": "^4.0.3",
     "portfinder": "^1.0.25",
