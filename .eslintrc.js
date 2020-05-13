@@ -15,13 +15,13 @@ module.exports = {
     //强制不使用分号结尾
     semi: ['error', 'never'],
     // 'no-mixed-spaces-and-tabs': 0,
-    eqeqeq: 0,
+    eqeqeq: 2,
     complexity: ['error', { max: 30 }],
     'prefer-object-spread': 0
   },
   parser: 'babel-eslint',
   parserOptions: {
-    ecmaVersion: 2018,
+    ecmaVersion: 2019,
     sourceType: 'module'
   },
   globals: {
