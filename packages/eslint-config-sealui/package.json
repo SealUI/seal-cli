@@ -1,6 +1,6 @@
 {
   "name": "@sealui/eslint-config-sealui",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "SealUI ESLint 配置规范",
   "publishConfig": {
     "access": "public"
