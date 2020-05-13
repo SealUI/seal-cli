@@ -7,8 +7,6 @@ changelog-generator
 # local env files
 .env.local
 .env.*.local
-yarn.lock
-package-lock.json
 
 # Log files
 npm-debug.log*
