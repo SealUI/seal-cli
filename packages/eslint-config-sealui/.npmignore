@@ -1,0 +1,8 @@
+__tests__
+src
+package-lock.json
+yarn.lock
+.bak
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

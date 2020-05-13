@@ -1,0 +1,27 @@
+{
+  "name": "@sealui/eslint-config-sealui",
+  "version": "0.1.0",
+  "description": "eslint-config-sealui",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "eslint-config-sealui"
+  ],
+  "author": "听着情歌流泪 <develop@lingtal.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "eslint": "eslint --ext .js,.jsx,.ts,.tsx,.vue --ignore-pattern \"bad.*\" .",
+    "prettier": "prettier -l \"./**/*\"",
+    "prettier:fix": "prettier --write -l \"./**/*\"",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
