@@ -1,11 +1,13 @@
 {
   "name": "@sealui/eslint-config-sealui",
   "version": "0.1.0",
-  "description": "eslint-config-sealui",
+  "description": "SealUI ESLint 配置规范",
   "publishConfig": {
     "access": "public"
   },
   "keywords": [
+    "eslint",
+    "sealui",
     "eslint-config-sealui"
   ],
   "author": "听着情歌流泪 <develop@lingtal.com>",

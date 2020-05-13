@@ -1,4 +1,4 @@
-# `eslint-config-sealui`
+# eslint-config-sealui
 
 > SealUI ESLint 规则适用于 React/Vue/Typescript 项目的 ESLint 配置规范，而且也是你配置个性化 ESLint 规则的参考。
 
@@ -36,7 +36,7 @@ module.exports = {
 
 ### Vue
 ```
-npm install --save-dev eslint babel-eslint vue-eslint-parser eslint-plugin-vue eslint-config-sealui
+npm install --save-dev eslint babel-eslint vue-eslint-parser eslint-plugin-vue @sealui/eslint-config-sealui
 ```
 在你的项目的根目录下创建一个 `.eslintrc.js` 文件，并将以下内容复制进去：
 
@@ -67,7 +67,7 @@ module.exports = {
 ```
 ### TypeScript
 ```
-npm install --save-dev eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-sealui
+npm install --save-dev eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin @sealui/eslint-config-sealui
 ```
 在你的项目的根目录下创建一个 `.eslintrc.js` 文件，并将以下内容复制进去：
 
