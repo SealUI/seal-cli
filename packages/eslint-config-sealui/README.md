@@ -1,6 +1,6 @@
 # `eslint-config-sealui`
 
-> TODO: description
+> SealUI ESLint 规则适用于 React/Vue/Typescript 项目的 ESLint 配置规范，而且也是你配置个性化 ESLint 规则的参考。
 
 ## 使用方法
 
@@ -39,6 +39,7 @@ module.exports = {
 npm install --save-dev eslint babel-eslint vue-eslint-parser eslint-plugin-vue eslint-config-sealui
 ```
 在你的项目的根目录下创建一个 `.eslintrc.js` 文件，并将以下内容复制进去：
+
 ```js
 module.exports = {
   extends: [
@@ -69,6 +70,7 @@ module.exports = {
 npm install --save-dev eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-sealui
 ```
 在你的项目的根目录下创建一个 `.eslintrc.js` 文件，并将以下内容复制进去：
+
 ```js
 module.exports = {
   extends: [
@@ -96,6 +98,7 @@ module.exports = {
 ```
 ## VSCode 中的 autoFixOnSave 没有效果
 如果需要针对 `.vue、.ts` 和 `.tsx` 文件开启 `ESLint` 的 `autoFix`，则需要配置成：
+
 ```json
 {
   "eslint.autoFixOnSave": true,
@@ -120,6 +123,7 @@ module.exports = {
 
 ## 如何结合 Prettier 使用
 下面给出一个 `.prettierrc.js` 配置，仅供参考：
+
 ```js
 // .prettierrc.js
 module.exports = {
