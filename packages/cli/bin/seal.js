@@ -26,13 +26,13 @@ if (semver.satisfies(process.version, '9.x')) {
   )
 }
 
-const camelize = str => {
+const camelize = (str) => {
   return str.replace(/-(\w)/g, (_, c) => (c ? c.toUpperCase() : ''))
 }
 
-const cleanArgs = cmd => {
+const cleanArgs = (cmd) => {
   const args = {}
-  cmd.options.forEach(o => {
+  cmd.options.forEach((o) => {
     const key = camelize(o.long.replace(/^--/, ''))
     if (typeof cmd[key] !== 'function' && typeof cmd[key] !== 'undefined') {
       args[key] = cmd[key]
@@ -43,7 +43,7 @@ const cleanArgs = cmd => {
 
 program.version(`@sealjs/cli ${require('../package.json').version}`).usage('<command> [options]')
 
-const verifyArgs = name => {
+const verifyArgs = (name) => {
   if (minimist(process.argv.slice(3))._.length > 1) {
     console.log(chalk.yellow(`\n Info: You provided more than one argument. The first one will be used as the ${name}, the rest are ignored.`))
   }
@@ -90,7 +90,7 @@ program
 program
   .command('random <length>')
   .description('生成一个随机数')
-  .action(name => {
+  .action((name) => {
     verifyArgs('Length')
     require('../lib/random')(name)
   })
@@ -114,28 +114,28 @@ program
           Binaries: ['Node', 'Yarn', 'npm'],
           Browsers: ['Chrome', 'Edge', 'Firefox', 'Safari'],
           npmPackages: '/**/{typescript,*vue*,@vue/*/}',
-          npmGlobalPackages: ['@sealjs/cli']
+          npmGlobalPackages: ['@sealjs/cli'],
         },
         {
           showNotFound: true,
           duplicates: true,
-          fullTree: true
+          fullTree: true,
         }
       )
       .then(console.log)
   })
 
-program.arguments('<command>').action(cmd => {
+program.arguments('<command>').action((cmd) => {
   program.outputHelp()
   console.log('  ' + chalk.red(`未知的命令 ${chalk.yellow(cmd)}.`))
   console.log()
   suggestCommands(cmd)
 })
 
-program.commands.forEach(c => c.on('--help', () => console.log()))
+program.commands.forEach((c) => c.on('--help', () => console.log()))
 
 const enhanceErrorMessages = (methodName, log) => {
-  program.Command.prototype[methodName] = function(...args) {
+  program.Command.prototype[methodName] = function (...args) {
     if (methodName === 'unknownOption' && this._allowUnknownOption) {
       return
     }
@@ -146,9 +146,9 @@ const enhanceErrorMessages = (methodName, log) => {
   }
 }
 
-enhanceErrorMessages('missingArgument', argName => `缺少所需的参数 ${chalk.yellow(`<${argName}>`)}.`)
+enhanceErrorMessages('missingArgument', (argName) => `缺少所需的参数 ${chalk.yellow(`<${argName}>`)}.`)
 
-enhanceErrorMessages('unknownOption', optionName => `未知选项 ${chalk.yellow(optionName)}.`)
+enhanceErrorMessages('unknownOption', (optionName) => `未知选项 ${chalk.yellow(optionName)}.`)
 
 enhanceErrorMessages('optionMissingArgument', (option, flag) => `缺少选项所需的参数 ${chalk.yellow(option.flags)}${flag ? `, got ${chalk.yellow(flag)}` : ''}`)
 
@@ -159,7 +159,7 @@ if (!process.argv.slice(2).length) {
 }
 
 function suggestCommands(unknownCommand) {
-  const availableCommands = program.commands.map(cmd => {
+  const availableCommands = program.commands.map((cmd) => {
     return cmd._name
   })
 
