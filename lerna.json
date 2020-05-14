@@ -6,7 +6,7 @@
       "ignoreChanges": ["__tests__/**", ".npmignore", "src/**", "yarn.lock", "package-lock.json"]
     },
     "version": {
-      "message": "chore(release): publish %s",
+      "message": "chore(release): publish",
       "conventionalCommits": true,
       "changelogPreset": "sealui",
       "exact": true,
