@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.1.4 (2020-05-14)</small>
+
+* bug(eslint-config-sealui): 修改默认规则 ([59a005c](https://github.com/SealUI/seal-cli/commit/59a005c))
+* style(eslint-config-sealui): 移除 .npmignore ([dfcad64](https://github.com/SealUI/seal-cli/commit/dfcad64))
+
+
+
+
+
 ## [0.1.3](https://github.com/SealUI/seal-cli/compare/@sealui/eslint-config-sealui@0.1.2...@sealui/eslint-config-sealui@0.1.3) (2020-05-13)
 
 **Note:** Version bump only for package @sealui/eslint-config-sealui
