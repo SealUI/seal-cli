@@ -4,7 +4,8 @@
   "useWorkspaces": true,
   "scripts": {
     "lint": "eslint --fix packages/**/*.js packages/**/bin/*",
-    "changelog": "lerna-changelog"
+    "changelog": "conventional-changelog -p sealui -i CHANGELOG.md -s -r 0",
+    "release:lerna": "lerna publish --skip-temp-tag --preid=patch"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",

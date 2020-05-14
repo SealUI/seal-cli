@@ -8,7 +8,7 @@
     "version": {
       "message": "chore(release): publish %s",
       "conventionalCommits": true,
-      "changelogPreset": "angular",
+      "changelogPreset": "sealui",
       "exact": true,
       "allowBranch": "master"
     },
