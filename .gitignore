@@ -4,6 +4,9 @@ node_modules
 /scripts
 changelog-generator
 .bak
+package-lock.json
+yarn.lock
+
 # local env files
 .env.local
 .env.*.local
@@ -21,3 +24,4 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
