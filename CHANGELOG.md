@@ -26,12 +26,21 @@
 
 #### 📚 Documentation
 
+* **CHANGELOG.md:** 修改说明文档   ([4704f4e](https://github.com/SealUI/seal-cli/commit/4704f4e6c28f7c00e9e66fe7b96ba3cfda6c9ef1))
 * **CHANGELOG.md:** 更新文档   ([3ddfd57](https://github.com/SealUI/seal-cli/commit/3ddfd57574a23e0b2d0fd5e88e6525ba457ac652))
 * **cli:** 完善说明文档   ([0e01b56](https://github.com/SealUI/seal-cli/commit/0e01b5683b7908d43d17276a12fc6ba9dfd23dec))
 * 修改文档   ([fbefa95](https://github.com/SealUI/seal-cli/commit/fbefa950e8bac3b904e9e5bdfa542d2393d501d9))
-* 更新 `seal-cli` 文档   ([c23b92a](https://github.com/SealUI/seal-cli/commit/c23b92a278c4358984172c1474b5338296963000))
 * 更新文档   ([57eed38](https://github.com/SealUI/seal-cli/commit/57eed38b920271a98b2f4fa1302634573999b498))
 * **eslint-config-sealui:** 完善说明文档   ([958dc36](https://github.com/SealUI/seal-cli/commit/958dc36c51309130dda8ecc2aa27ca4075f7901d))
 * **eslint-config-sealui:** 完善说明文档   ([db47c54](https://github.com/SealUI/seal-cli/commit/db47c547185fdd2ce3beaed2c17a7f9d3cc368f5))
+* 更新 `seal-cli` 文档   ([c23b92a](https://github.com/SealUI/seal-cli/commit/c23b92a278c4358984172c1474b5338296963000))
+
+
+#### 🐛 Bug Fixes
+
+* **.cz-config.js:** 修改错误的描述   ([b807dac](https://github.com/SealUI/seal-cli/commit/b807dacf2e03e189bf07aeb3e3c0f7cbac54a171))
+* **eslint-config-sealui:** 修改`no-return-await`规则   ([61f1c3e](https://github.com/SealUI/seal-cli/commit/61f1c3e257e47a1aa042923ac2b403e217d56048))
+* **eslint-config-sealui:** 修改默认规则   ([59a005c](https://github.com/SealUI/seal-cli/commit/59a005c865eabb51d188e44197eb54f4612c4635))
+* 添加忽略文件   ([d782a6f](https://github.com/SealUI/seal-cli/commit/d782a6f8310fb4ceb31aa8a1c8395e9510d91496))
 
 
