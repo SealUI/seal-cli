@@ -26,6 +26,7 @@
 
 #### 📚 Documentation
 
+* **CHANGELOG.md:** 更新文档   ([3ddfd57](https://github.com/SealUI/seal-cli/commit/3ddfd57574a23e0b2d0fd5e88e6525ba457ac652))
 * **cli:** 完善说明文档   ([0e01b56](https://github.com/SealUI/seal-cli/commit/0e01b5683b7908d43d17276a12fc6ba9dfd23dec))
 * 修改文档   ([fbefa95](https://github.com/SealUI/seal-cli/commit/fbefa950e8bac3b904e9e5bdfa542d2393d501d9))
 * 更新 `seal-cli` 文档   ([c23b92a](https://github.com/SealUI/seal-cli/commit/c23b92a278c4358984172c1474b5338296963000))
