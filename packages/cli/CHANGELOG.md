@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.5 (2020-05-14)</small>
+
+* docs(cli): 完善说明文档 ([0e01b56](https://github.com/SealUI/seal-cli/commit/0e01b56))
+* style(cli): 移除 .npmignore ([bf35fa1](https://github.com/SealUI/seal-cli/commit/bf35fa1))
+
+
+
+
+
 ## [1.0.4](https://github.com/SealUI/seal-cli/compare/@sealui/cli@1.0.3...@sealui/cli@1.0.4) (2020-05-13)
 
 **Note:** Version bump only for package @sealui/cli
