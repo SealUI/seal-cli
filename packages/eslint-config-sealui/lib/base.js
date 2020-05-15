@@ -82,11 +82,11 @@ module.exports = {
     /**
      * switch 语句必须有 default
      */
-    'default-case': 'off',
+    'default-case': 'error',
     /**
      * switch 语句中的 default 必须在最后
      */
-    'default-case-last': 'error',
+    'default-case-last': 'off',
     /**
      * 有默认值的参数必须放在函数参数的末尾
      */
@@ -736,7 +736,7 @@ module.exports = {
      * 禁止正则表达式中出现无用的回溯引用
      * @reason 某些回溯引用语法上没问题，但是会永远匹配到空字符串
      */
-    'no-useless-backreference': 'error',
+    'no-useless-backreference': 'off',
     /**
      * 禁止出现没必要的 call 或 apply
      */

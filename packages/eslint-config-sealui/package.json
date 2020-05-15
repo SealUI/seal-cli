@@ -8,6 +8,7 @@
   "keywords": [
     "eslint",
     "sealui",
+    "sealjs",
     "eslint-config-sealui"
   ],
   "author": "听着情歌流泪 <develop@lingtal.com>",
@@ -31,6 +32,7 @@
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
     "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-vue": "^6.2.2",
     "prettier": "^2.0.5",

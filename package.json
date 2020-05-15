@@ -2,6 +2,9 @@
   "name": "sealui",
   "private": true,
   "useWorkspaces": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "lint": "eslint --fix packages/**/*.js packages/**/bin/*",
     "changelog": "conventional-changelog -p sealui -i CHANGELOG.md -s -r 0",

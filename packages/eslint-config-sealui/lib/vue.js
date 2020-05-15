@@ -19,6 +19,7 @@ module.exports = {
     // 仅允许 import export 语句出现在模块的顶层
     allowImportExportEverywhere: false
   },
+  extends: [require.resolve('eslint-config-prettier/vue')],
   plugins: ['vue'],
   rules: {
     /**
