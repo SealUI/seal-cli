@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.1.6 (2020-05-16)</small>
+
+* fix(eslint-config-sealui): 修改项目依赖文件 ([cba5c93](https://github.com/SealUI/seal-cli/commit/cba5c93))
+
+
+
+
+
 ## <small>0.1.5 (2020-05-16)</small>
 
 * fix(eslint-config-sealui): 修改eslint规则 ([5398942](https://github.com/SealUI/seal-cli/commit/5398942))
