@@ -26,7 +26,7 @@
     "prettier": "prettier --write lib/*.js",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "devDependencies": {
+  "dependencies": {
     "@types/prettier": "^2.0.0",
     "@types/react": "^16.9.35",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
