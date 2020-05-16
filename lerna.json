@@ -14,9 +14,6 @@
     },
     "create": {
       "license": "MIT"
-    },
-    "bootstrap": {
-      "hoist": true
     }
   },
   "changelog": {
