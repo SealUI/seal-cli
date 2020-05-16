@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.7](https://github.com/SealUI/seal-cli/compare/@sealui/eslint-config-sealui@0.1.6...@sealui/eslint-config-sealui@0.1.7) (2020-05-16)
+
+
+### Bug Fixes
+
+* **eslint-config-sealui:** 更新依赖文件 ([31e7c3d](https://github.com/SealUI/seal-cli/commit/31e7c3d6fab0305e8d0ce5e45e73a81a74f62432))
+
+
+
+
+
 ## <small>0.1.6 (2020-05-16)</small>
 
 * fix(eslint-config-sealui): 修改项目依赖文件 ([cba5c93](https://github.com/SealUI/seal-cli/commit/cba5c93))
