@@ -6,8 +6,8 @@ module.exports = {
     node: true,
     es6: true,
   },
-  extends: ['eslint:recommended', 'plugin:prettier/recommended', './packages/eslint-config-sealui'],
-  plugins: ['node', 'import', 'prettier'],
+  extends: ['@sealui/sealui'],
+  plugins: ['node', 'import'],
   rules: {
     'prettier/prettier': 'error',
     complexity: ['error', { max: 30 }],
