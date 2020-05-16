@@ -1,7 +1,6 @@
 {
   "name": "sealui",
   "private": true,
-  "useWorkspaces": true,
   "workspaces": [
     "packages/*"
   ],
@@ -11,10 +10,8 @@
     "release:lerna": "lerna publish --skip-temp-tag --preid=patch"
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "chalk": "^4.0.0",
     "commitlint-config-cz": "^0.13.1",
-    "cz-customizable": "^6.2.0",
+    "cz-lerna-changelog": "^2.0.2",
     "eslint": "^6.6.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-plugin-import": "^2.20.2",
@@ -22,8 +19,7 @@
     "execa": "^4.0.1",
     "husky": "^4.2.5",
     "inquirer": "^7.1.0",
-    "lerna": "^3.20.2",
-    "lerna-changelog": "^1.0.1",
+    "lerna": "^3.21.0",
     "lint-staged": "^10.2.2",
     "prettier": "^2.0.5",
     "semver": "^7.3.2"
@@ -40,7 +36,8 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-customizable"
+      "path": "./node_modules/cz-lerna-changelog",
+      "//path": "./node_modules/cz-customizable"
     },
     "cz-customizable": {
       "config": "./.cz-config.js"

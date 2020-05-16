@@ -9,12 +9,14 @@
     "version": {
       "message": "chore(release): publish",
       "conventionalCommits": true,
-      "changelogPreset": "sealui",
       "exact": true,
       "allowBranch": "master"
     },
     "create": {
       "license": "MIT"
+    },
+    "bootstrap": {
+      "hoist": true
     }
   },
   "changelog": {
