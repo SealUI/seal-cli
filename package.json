@@ -36,6 +36,7 @@
     "prettier": "^1.19.1",
     "semver": "^6.3.0"
   },
+  "repository": "https://github.com/SealUI/seal-cli.git",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
